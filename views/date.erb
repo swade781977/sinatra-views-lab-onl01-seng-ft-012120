@@ -5,7 +5,7 @@
   </head>
   <body>
     <% require 'date'
-        time = Date.now  
+        time = Date.new  
     %>
     <p><%= time.strftime(%A) + ", " + time.strftime(%m %d) + ", " + time.strftime(%Y) </p>
   </body>
