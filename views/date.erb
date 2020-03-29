@@ -7,6 +7,6 @@
     <% require 'date'
         time = Date.new  
     %>
-    <p><%= time.strftime(%A) + ", " + time.strftime(%m %d) + ", " + time.strftime(%Y)%> </p>
+    <p><%=time.strftime(%A)%>, <%=time.strftime(%m %d)%>, <%=time.strftime(%Y)%> </p>
   </body>
 </html>
