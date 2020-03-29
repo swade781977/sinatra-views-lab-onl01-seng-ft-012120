@@ -4,9 +4,9 @@
     <h1>Today</h1>
   </head>
   <body>
-    <%= require 'date'
+    <% require 'date'
         time = Date.now  
     %>
-    <p><% time.strftim(%A, </p>
+    <p><%= time.strftime(%A) + ", " + time.strftime(</p>
   </body>
 </html>
